@@ -17,7 +17,7 @@ html, body {
 }
 .column {
   float: left;
-  width: 16.67%;
+  width: 12.5%;
 }
 
 /* Clear floats after the columns */
