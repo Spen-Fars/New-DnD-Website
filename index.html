@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spencer Farley — Resume</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured data for richer search results (adjust values) -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"Person",
+      "name":"Spencer Farley",
+      "jobTitle":"Software Developer",
+      "url":"https://spen-fars.github.io/resume/",
+      "sameAs":["https://github.com/spen-fars", "https://www.linkedin.com/in/spencer-farley/"]
+    }
+    </script>
+
+  </head>
+  <body>
+    <div class="site">
+      <!-- Header / Nav -->
+      <header>
+        <div>
+          <h1 style="margin: 0;">Spencer Farley</h1>
+          <div style="color: var(--muted);">Entry Level Programmer • Vancouver, WA • spedfar@gmail.com</div>
+        </div>
+        <nav aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <!-- Hero / Summary -->
+      <section class="hero" id="about">
+        <div style="flex: 1">
+          <p style="margin: 0; color: var(--muted)">Eager to learn and driven to contribute to customers’ needs, I am always ready to apply my knowledge and develop new technical skills working in a supportive team environment. I care about the teams I work with, the projects I work on, and the customers that I help deliver quality results to.</p>
+
+          <!-- Key Skills / Open to -->
+          <p style="margin-top: 12px">
+            <strong>Key skills:</strong> Hard Working, Quick Learner, Great Teammate • <strong>Open to:</strong> Full-time / Contract
+          </p>
+
+          <p style="margin-top: 16px">
+            <a class="download-btn" href="resume.pdf" download>Download Resume PDF</a>
+            &nbsp;&nbsp;•&nbsp;&nbsp; 
+            <a href="#contact">Hire me</a>
+          </p>
+        </div>
+
+        <div class="avatar" role="img" aria-label="Portrait of Full Name">
+          <img src="boat.png" alt="Spencer" width="140" height="140">
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="grid">
+          <!-- First Card -->
+          <article class="card" aria-labelledby="role-1">
+            <h3 id="role-1">Python Developer — Optikel Instruments</h3>
+            <p style="margin: 6px 0; color: var(--muted)">Jan 2025 — May 2025 • Portland, OR</p>
+            <p>With a team of four, I developed a Python-based software that controlled a robotic arm stage using quaternion and matrix calculations to execute precise movements with the intended application for manufacturing printed semiconductor wafers and other fine circuitry.</p>
+          </article>
+          <!-- Second Card -->
+        </div>
+      </section>
+
+      <!-- Projects / Selected Work -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid">
+          <!-- First Card -->
+          <div class="card">
+            <h3>Personal Website</h3>
+            <p style="margin: 6px 0; color: var(--muted)">That's this website!</p>
+            <p>This website was programmed in HTML and is hosted and programmed using GitHub.</p>
+          </div>
+          <!-- Second Card -->
+          <div class="card">
+            <h3>Graphically Calculated Artistic Rendition of Black Hole</h3>
+            <p style="margin: 6px 0; color: var(--muted)">Raytraced light bending model.</p>
+            <p>Using 3D raytracing and a light bending model, I graphically calculated an artistic rendition of light bending around a black hole.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills & Tools -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+          <div class="card"><strong>Languages</strong><p>Python, C, Java, HTML, JavaScript, SQL, PHP</p></div>
+          <div class="card"><strong>Frameworks</strong><p>Node.js</p></div>
+          <div class="card"><strong>Tools</strong><p>Git</p></div>
+        </div>
+      </section>
+
+      <!-- Education / Certifications -->
+      <section id="education">
+        <h2>Education & Certifications</h2>
+        <div class="grid">
+          <!-- First Card -->
+          <div class="card">
+            <h3>Lewis & Clark College — Bachelor's of Arts</h3>
+            <p style="color: var(--muted); margin: 6px 0">September 2022 — May 2025</p>
+            <p>Receiver of the Magna Cum Laude Latin honor. Graduated with a 3.8 GPA.</p>
+          </div>
+          <!-- Second Card -->
+          <div class="card">
+            <h3>Washington Food Handler's Card</h3>
+            <p style="color: var(--muted); margin: 6px 0">2025</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hobbies -->
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="grid">
+          <!-- First Card -->
+          <div class="card">
+            <strong>Tabletop Roleplaying Games</strong>
+            <p>I love Dungeons & Dragons, Call of Cthulhu, and Root, it's a great way to meet knew people!</p>
+          </div>
+          <!-- Second Card -->
+          <div class="card">
+            <strong>Violin</strong>
+            <p>I've been playing on and off for three years. I'm currently learning to play "Merry-Go-Round-Of-Life."</p>
+          </div>
+          <!-- Third Card -->
+          <div class="card">
+            <strong>Running</strong>
+            <p>I'm currently training towards running a half-marathon in the fall.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / Footer -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p style="color: var(--muted)">Email: <a href="mailto: spedfar@gmail.com">spedfar@gmail.com</a> • LinkedIn: <a href="https://www.linkedin.com/in/spencer-farley/">Spencer Farley</a> • GitHub: <a href="https://github.com/Spen-Fars">Spen-Fars</a></p>
+      </section>
+    </div>
+
+    <!-- Event Listener Script -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      document.querySelectorAll('nav a').forEach(a => {
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          const id = a.getAttribute('href').slice(1);
+          document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+        });
+      });
+    </script>
+
+  </body>
+
+</html>
